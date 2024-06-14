@@ -4,7 +4,7 @@ class Affirmation:
         self.valeur = "je ne sais pas"
 
     def get_valeur_de_vérité(self):
-        return self.valeur == "vraie"
+        return self.valeur
 
 class Vérité(Affirmation):
     def __init__(self, phrase):
